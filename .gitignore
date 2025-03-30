@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Diretórios de build
+dist/
+build/
+.out/
+
+# Arquivos de ambiente
+.env
+.env.*.local
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sw?
+
+# Logs
+logs/
+*.log
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+
+# Optional: Ignore database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Optional: Ignore Docker files (se você gerar dinamicamente)
+docker-compose.override.yml
